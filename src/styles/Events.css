@@ -1,0 +1,25 @@
+/* src/styles/Events.css */
+.events-container {
+    padding: 20px;
+  }
+  
+  .events-container h1,
+  .events-container h2 {
+    color: #464d77; /* Yinmn Blue */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .events-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .separator {
+    margin: 40px 0;
+    border: none;
+    border-top: 2px solid #bff0d4; /* Celadon */
+  }
+  

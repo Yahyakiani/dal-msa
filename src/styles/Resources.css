@@ -1,0 +1,10 @@
+/* src/styles/Resources.css */
+.resources-container {
+    padding: 20px;
+  }
+  
+  .resources-container h2 {
+    color: #464d77; /* Yinmn Blue */
+    margin-bottom: 20px;
+  }
+  

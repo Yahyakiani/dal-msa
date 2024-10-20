@@ -1,0 +1,36 @@
+/* src/styles/MemberCard.css */
+.member-card {
+    background-color: #ffcfd2; /* Tea Rose Red */
+    border-radius: 8px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .member-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .member-details {
+    margin-top: 10px;
+  }
+  
+  .member-details h3 {
+    color: #464d77; /* Yinmn Blue */
+    margin-bottom: 10px;
+  }
+  
+  .member-details p {
+    color: #333;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .member-details p svg {
+    margin-right: 5px;
+  }
+  

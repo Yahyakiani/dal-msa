@@ -1,0 +1,50 @@
+/* src/styles/EventCard.css */
+.event-card {
+    display: flex;
+    background-color: #ffcfd2; /* Tea Rose Red */
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-image {
+    width: 40%;
+    object-fit: cover;
+  }
+  
+  .event-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  .event-details h3 {
+    color: #464d77; /* Yinmn Blue */
+  }
+  
+  .event-details p {
+    color: #333;
+    font-size: 0.95rem;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background-color: #80a1d4; /* Vista Blue */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8rem;
+  }
+  

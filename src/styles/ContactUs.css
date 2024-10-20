@@ -1,0 +1,80 @@
+/* src/styles/ContactUs.css */
+.contactus-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contactus-container h1 {
+    color: #464d77; /* Yinmn Blue */
+    margin-bottom: 20px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .contact-item svg {
+    color: #80a1d4; /* Vista Blue */
+  }
+  
+  .contact-form {
+    background-color: #bff0d4; /* Celadon */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-form h2 {
+    color: #464d77; /* Yinmn Blue */
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .btn {
+    background-color: #80a1d4; /* Vista Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #4c5b61; /* Outer Space */
+  }
+  

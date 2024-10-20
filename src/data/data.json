@@ -1,0 +1,176 @@
+{
+    "home": {
+        "insights": [
+            {
+                "title": "Prayer Map & Times",
+                "description": "Discover prayer spaces and prayer times across campus.",
+                "image": "https://via.placeholder.com/300x150.png?text=Prayer+Map+%26+Times"
+            },
+            {
+                "title": "Chaplaincy Program",
+                "description": "Offering spiritual and mental support through our chaplaincy program.",
+                "image": "https://via.placeholder.com/300x150.png?text=Chaplaincy+Program"
+            },
+            {
+                "title": "Community Engagement",
+                "description": "Join our social events and community activities to connect.",
+                "image": "https://via.placeholder.com/300x150.png?text=Community+Engagement"
+            }
+        ]
+    },
+    "events": {
+        "upcoming": [
+            {
+                "title": "Ramadan Iftar",
+                "description": "Join us for a community Iftar to break the fast together.",
+                "tags": [
+                    "Ramadan",
+                    "Iftar",
+                    "Community"
+                ],
+                "image": "https://via.placeholder.com/400x200.png?text=Ramadan+Iftar"
+            },
+            {
+                "title": "Eid Celebration",
+                "description": "Celebrate Eid with us through prayers, food, and festivities.",
+                "tags": [
+                    "Eid",
+                    "Celebration",
+                    "Festivities"
+                ],
+                "image": "https://via.placeholder.com/400x200.png?text=Eid+Celebration"
+            }
+        ],
+        "past": [
+            {
+                "title": "Weekly Halaqas",
+                "description": "Join our weekly halaqas for religious knowledge gatherings.",
+                "tags": [
+                    "Halaqa",
+                    "Knowledge",
+                    "Weekly"
+                ],
+                "image": "https://via.placeholder.com/400x200.png?text=Weekly+Halaqas"
+            },
+            {
+                "title": "Charity Fundraiser",
+                "description": "Participate in our charity fundraiser to support local communities.",
+                "tags": [
+                    "Charity",
+                    "Fundraiser",
+                    "Community"
+                ],
+                "image": "https://via.placeholder.com/400x200.png?text=Charity+Fundraiser"
+            }
+        ]
+    },
+    "resources": {
+        "sections": [
+            {
+                "title": "Prayer Map & Times",
+                "type": "table",
+                "headers": [
+                    "Day",
+                    "Prayer Time",
+                    "Iqama Time"
+                ],
+                "data": [
+                    [
+                        "Monday",
+                        "5:00 AM",
+                        "5:15 AM"
+                    ],
+                    [
+                        "Tuesday",
+                        "5:00 AM",
+                        "5:15 AM"
+                    ],
+                    [
+                        "Wednesday",
+                        "5:00 AM",
+                        "5:15 AM"
+                    ],
+                    [
+                        "Thursday",
+                        "5:00 AM",
+                        "5:15 AM"
+                    ],
+                    [
+                        "Friday",
+                        "5:00 AM",
+                        "5:15 AM"
+                    ],
+                    [
+                        "Saturday",
+                        "5:00 AM",
+                        "5:15 AM"
+                    ],
+                    [
+                        "Sunday",
+                        "5:00 AM",
+                        "5:15 AM"
+                    ]
+                ]
+            },
+            {
+                "title": "Chaplaincy Program",
+                "type": "text",
+                "content": "Alhamdulillah! After many years, members of the McGill Muslim Alumni Society (MMAS) and MSA McGill are excited to announce the launch of a new chaplaincy program dedicated to serving Muslim students at McGill and other Montreal universities! [Additional content as provided]"
+            },
+            {
+                "title": "Halal Food Recommendations",
+                "type": "text",
+                "content": "Here is a Halal food recommendations list, including grocery stores and restaurants! Feel free to add any Halal spots that you may find!",
+                "image": "https://via.placeholder.com/600x300.png?text=Halal+Food+Recommendations"
+            }
+        ]
+    },
+    "about": {
+        "services": [
+            "A Chaplaincy program",
+            "Weekly Jum’uah (Friday) prayers",
+            "Regularly maintained general prayer spaces",
+            "A student-run Islamic library",
+            "Halaqas (religious knowledge gatherings)",
+            "Tajweed (Qur’an recitation) classes",
+            "Social events and community activities"
+        ],
+        "events": [
+            "Annual MSA Frosh",
+            "Ramadan Iftars (dinners)",
+            "Eid al Fitr & Eid al Adha celebrations",
+            "Lecture series",
+            "Information sessions",
+            "Social awareness campaigns",
+            "Fundraising dinners/galas",
+            "Discover Islam Week",
+            "Our annual MSA Ski Trip"
+        ],
+        "members": [
+            {
+                "name": "Amir Ahmed",
+                "year": "4th",
+                "program": "Computer Science",
+                "responsibility": "President",
+                "email": "president@msadalhousie.ca",
+                "image": "https://via.placeholder.com/250x250.png?text=Amir+Ahmed"
+            },
+            {
+                "name": "Amira Khan",
+                "year": "3rd",
+                "program": "Business Administration",
+                "responsibility": "VP Administration",
+                "email": "administration@msadalhousie.ca",
+                "image": "https://via.placeholder.com/250x250.png?text=Amira+Khan"
+            },
+            {
+                "name": "Farah Chouayakh",
+                "year": "2nd",
+                "program": "International Relations",
+                "responsibility": "VP Communications",
+                "email": "communications@msadalhousie.ca",
+                "image": "https://via.placeholder.com/250x250.png?text=Farah+Chouayakh"
+            }
+        ]
+    }
+}
