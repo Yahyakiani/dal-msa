@@ -1,0 +1,126 @@
+/* src/styles/Timeline.css */
+.timeline-section {
+  background-color: #333; /* Dark background */
+  padding: 40px;
+  color: #f4f4f4; /* Light text for contrast */
+  text-align: left;
+}
+
+.timeline-title {
+  text-align: center;
+  color: #f4f4f4;
+  margin-bottom: 30px;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 3px solid #ffc107; /* Vertical yellow line */
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.timeline-item:hover {
+  transform: scale(1.05);
+}
+
+.timeline-item.left {
+  align-self: flex-start;
+}
+
+.timeline-item.right {
+  align-self: flex-end;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -17px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #ff5722; /* Orange marker */
+  border-radius: 50%;
+  border: 3px solid #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.timeline-marker:hover {
+  background-color: #ff9a3a;
+  transform: scale(1.2);
+}
+
+.timeline-content {
+  background: #464d77; /* Yinmn Blue for card background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #f4f4f4;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.timeline-content h3 {
+  color: #ffc107; /* Yellow text for titles */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline-content .term {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.timeline-content p {
+  line-height: 1.5;
+}
+
+.read-more-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #80a1d4; /* Vista Blue link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+  color: #bff0d4; /* Celadon for hover effect */
+}
+
+@media screen and (max-width: 768px) {
+  .timeline {
+    border-left: 0;
+    display: block;
+  }
+
+  .timeline-item {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .timeline-marker {
+    left: 10px;
+    top: 20px;
+  }
+
+  .timeline-content {
+    padding-left: 40px;
+    margin-left: 20px;
+  }
+}

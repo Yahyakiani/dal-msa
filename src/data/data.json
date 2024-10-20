@@ -1,23 +1,66 @@
 {
     "home": {
-        "insights": [
-            {
-                "title": "Prayer Map & Times",
-                "description": "Discover prayer spaces and prayer times across campus.",
-                "image": "https://via.placeholder.com/300x150.png?text=Prayer+Map+%26+Times"
-            },
-            {
-                "title": "Chaplaincy Program",
-                "description": "Offering spiritual and mental support through our chaplaincy program.",
-                "image": "https://via.placeholder.com/300x150.png?text=Chaplaincy+Program"
-            },
-            {
-                "title": "Community Engagement",
-                "description": "Join our social events and community activities to connect.",
-                "image": "https://via.placeholder.com/300x150.png?text=Community+Engagement"
-            }
-        ]
+    "heroSection": {
+        "title": "The Muslim Students' Association of Dalhousie University",
+        "subtitle": "A Service of the Students' Community at Dalhousie University",
+        "heroImage": "https://via.placeholder.com/1500x400.png?text=Dalhousie+MSA+Banner",
+        "bismillahText": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
+        "bismillahTranslation": "In the Name of Allah, the Most Gracious, the Most Merciful",
+        "welcomeMessage": {
+            "heading": "Assalamu Alaykum! Peace be upon you!",
+            "description": "Welcome to the official website of the Muslim Students' Association of Dalhousie University! We are a student-run service at Dalhousie University that brings together Muslim students to provide resources, essential services, and educational tools needed to enhance their university experience. We aim to facilitate the spiritual and social growth of our community, as well as the larger Dalhousie community, supporting diverse student needs, inShaAllah!"
+        }
     },
+    "insights": [
+        {
+            "title": "Prayer Map & Times",
+            "description": "Discover prayer spaces and prayer times across campus.",
+            "image": "https://via.placeholder.com/300x150.png?text=Prayer+Map+%26+Times"
+        },
+        {
+            "title": "Chaplaincy Program",
+            "description": "Offering spiritual and mental support through our chaplaincy program.",
+            "image": "https://via.placeholder.com/300x150.png?text=Chaplaincy+Program"
+        },
+        {
+            "title": "Community Engagement",
+            "description": "Join our social events and community activities to connect.",
+            "image": "https://via.placeholder.com/300x150.png?text=Community+Engagement"
+        }
+    ],
+    "timeline": [
+        {
+            "title": "Winter Orientation",
+            "term": "Winter 2021",
+            "description": "In this event, the students will get to know about the MSA as well as learn how life is for Muslim students here in Halifax.",
+            "link": "#"
+        },
+        {
+            "title": "Quran Tafseer Halaqah",
+            "term": "Winter 2021",
+            "description": "These Halaqahs take place every Monday and Friday to get a better understanding of the Quran.",
+            "link": "#"
+        },
+        {
+            "title": "Badminton/Basketball",
+            "term": "Winter 2021",
+            "description": "These game sessions will be held during the weekends for the students to have fun and socialize with others.",
+            "link": "#"
+        },
+        {
+            "title": "Back to School Party",
+            "term": "Fall 2021",
+            "description": "In this event, students got the chance to meet fellow Muslim students in Halifax and make connections. We also hosted a Basketball tournament to create engagement.",
+            "link": "#"
+        },
+        {
+            "title": "Dal Helpers",
+            "term": "Fall and Winter 2021",
+            "description": "These are senior university students who would hold one-on-one sessions with junior students to help them out in their academics.",
+            "link": "#"
+        }
+    ]
+},
     "events": {
         "upcoming": [
             {
@@ -65,66 +108,71 @@
         ]
     },
     "resources": {
-        "sections": [
-            {
-                "title": "Prayer Map & Times",
-                "type": "table",
-                "headers": [
-                    "Day",
-                    "Prayer Time",
-                    "Iqama Time"
-                ],
-                "data": [
-                    [
-                        "Monday",
-                        "5:00 AM",
-                        "5:15 AM"
-                    ],
-                    [
-                        "Tuesday",
-                        "5:00 AM",
-                        "5:15 AM"
-                    ],
-                    [
-                        "Wednesday",
-                        "5:00 AM",
-                        "5:15 AM"
-                    ],
-                    [
-                        "Thursday",
-                        "5:00 AM",
-                        "5:15 AM"
-                    ],
-                    [
-                        "Friday",
-                        "5:00 AM",
-                        "5:15 AM"
-                    ],
-                    [
-                        "Saturday",
-                        "5:00 AM",
-                        "5:15 AM"
-                    ],
-                    [
-                        "Sunday",
-                        "5:00 AM",
-                        "5:15 AM"
-                    ]
-                ]
-            },
-            {
-                "title": "Chaplaincy Program",
-                "type": "text",
-                "content": "Alhamdulillah! After many years, members of the McGill Muslim Alumni Society (MMAS) and MSA McGill are excited to announce the launch of a new chaplaincy program dedicated to serving Muslim students at McGill and other Montreal universities! [Additional content as provided]"
-            },
-            {
-                "title": "Halal Food Recommendations",
-                "type": "text",
-                "content": "Here is a Halal food recommendations list, including grocery stores and restaurants! Feel free to add any Halal spots that you may find!",
-                "image": "https://via.placeholder.com/600x300.png?text=Halal+Food+Recommendations"
-            }
+    "sections": [
+        {
+        "title": "Prayer Times",
+        "type": "table",
+        "description": "Prayer times are calculated based on the latitude and longitude of the Killam Memorial Library at Dalhousie University, Halifax.",
+        "date": "October 20, 2024 – Rabi' al-thani 16, 1446 AH",
+        "headers": [
+            "Prayer",
+            "Begins"
+        ],
+        "data": [
+            [
+            "Fajr",
+            "06:16"
+        ],
+        [
+            "Sunrise",
+            "07:37"
+        ],
+        [
+            "Dhuhr",
+            "12:59"
+        ],
+        [
+            "Asr",
+            "15:58"
+        ],
+        [
+            "Sunset",
+            "18:21"
+        ],
+        [
+            "Maghrib",
+            "18:21"
+        ],
+        [
+            "Isha",
+            "19:41"
         ]
-    },
+    ],
+    "jumuah": [
+            {
+            "location": "Studley",
+            "time": "1:00 PM to 1:30 PM",
+            "room": "Room 307 SUB",
+            "note": "Subject to change, please check regularly for updates."
+        },
+        {
+            "location": "Sexton",
+            "time": "2:30 PM to 3:00 PM",
+            "room": "Daltech Mosalla (Quiet Room)",
+            "note": "* for both brothers and sisters"
+        }
+    ],
+    "availablePrayerSpaces": [
+        "Killam Library Multifaith Room 3rd Floor",
+        "International Center Quiet Room 1st Floor"
+    ],
+    "button": {
+        "text": "Jumu'ah Feedback",
+        "link": "#"
+    }
+}
+]
+},
     "about": {
         "services": [
             "A Chaplaincy program",

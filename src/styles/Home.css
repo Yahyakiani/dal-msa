@@ -1,68 +1,141 @@
 /* src/styles/Home.css */
 .home-container {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .home-container h1 {
-    color: #464d77; /* Yinmn Blue */
-    margin-bottom: 30px;
-  }
-  
-  .cards-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    background-color: #bff0d4; /* Celadon */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    width: 300px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-icon {
-    margin-bottom: 10px;
-  }
-  
-  .card h3 {
-    color: #464d77; /* Yinmn Blue */
-  }
-  
-  .card p {
-    color: #333;
-    font-size: 0.95rem;
-  }
-  
-  .card-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    margin: 15px 0;
-    border-radius: 4px;
-  }
-  
-  .card-buttons {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .btn {
-    background-color: #80a1d4; /* Vista Blue */
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #4c5b61; /* Outer Space */
-  }
-  
+  padding: 0;
+  text-align: center;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px; /* Added margin to ensure separation */
+}
+
+.hero-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.hero-content {
+  margin: 20px auto; /* Center the hero content */
+  max-width: 800px;
+  color: #333;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: #f4f4f4;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.bismillah {
+  margin-bottom: 20px;
+}
+
+.bismillah .arabic {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bismillah .translation {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.welcome-message {
+  margin-top: 20px;
+}
+
+.welcome-message h3 {
+  color: #80a1d4; /* Vista Blue */
+}
+
+.welcome-message p {
+  color: #e0e0e0; /* Light grey */
+}
+
+/* Separator Line */
+.thick-separator {
+  border: none;
+  border-top: 5px solid #000; /* Thick black line */
+  margin: 40px 0; /* Add margin to create separation between sections */
+}
+
+/* Insights Cards Styling */
+.cards-section {
+  padding: 20px 0;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #bff0d4; /* Celadon */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #464d77; /* Yinmn Blue */
+}
+
+.card p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #80a1d4; /* Vista Blue */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4c5b61; /* Outer Space */
+}
+
+/* Timeline Section Styling */
+.timeline-section {
+  padding: 40px 0;
+}

@@ -1,46 +1,110 @@
 /* src/styles/ResourceSection.css */
 .resource-section {
-    margin-bottom: 40px;
-  }
-  
-  .resource-section h2 {
-    color: #80a1d4; /* Vista Blue */
-    margin-bottom: 10px;
-  }
-  
-  .table-container {
-    overflow-x: auto;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  table th,
-  table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  table th {
-    background-color: #bff0d4; /* Celadon */
-    color: #333;
-  }
-  
-  .section-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin-top: 15px;
-    border-radius: 8px;
-  }
-  
-  .separator {
-    border: none;
-    border-top: 2px solid #bff0d4; /* Celadon */
-    margin: 20px 0;
-  }
-  
+  margin-bottom: 40px;
+  color: #f4f4f4; /* White text for better contrast */
+  background-color: #333; /* Dark background similar to the example */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-date {
+  font-style: italic;
+  color: #b3b3b3; /* Light grey for date */
+}
+
+.section-description {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: #f4f4f4;
+}
+
+table th,
+table td {
+  border-bottom: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #444; /* Darker background for headers */
+  font-weight: bold;
+}
+
+.jumuah-section {
+  margin-top: 30px;
+}
+
+.jumuah-entry {
+  margin-bottom: 20px;
+}
+
+.jumuah-entry h4 {
+  color: #ffcfd2; /* Tea Rose Red for emphasis */
+}
+
+.jumuah-entry p {
+  margin: 5px 0;
+  color: #f4f4f4; /* White text for consistency */
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+.available-prayer-spaces {
+  margin-top: 30px;
+}
+
+.available-prayer-spaces h3 {
+  margin-bottom: 10px;
+  color: #ffcfd2; /* Tea Rose Red */
+}
+
+.available-prayer-spaces ul {
+  list-style: none;
+  padding: 0;
+}
+
+.available-prayer-spaces li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.feedback-button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.feedback-button {
+  background-color: #ffcfd2; /* Tea Rose Red */
+  color: #333; /* Dark color for button text */
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-button:hover {
+  background-color: #ff9aa2; /* Slightly lighter red for hover effect */
+}
+
+.separator {
+  border: none;
+  border-top: 2px solid #4c5b61; /* Outer Space color */
+  margin: 20px 0;
+}
